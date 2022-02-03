@@ -50,7 +50,7 @@ namespace BookStoreApp.Controllers
                 {
                     return this.BadRequest(new { Success = false, message = "Email or Password not Found" });
                 }
-                return this.Ok(new { Success = true, message = "Login Successful", data = result, token=token });
+                return this.Ok(new { Success = true, message = "Login Successfuul", data = result, token=token });
             }
             catch (Exception e)
             {
