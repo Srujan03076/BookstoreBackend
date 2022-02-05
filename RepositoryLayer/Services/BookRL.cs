@@ -134,7 +134,7 @@ namespace RepositoryLayer.Services
             {
                 using (mysqlConnection)
                 {
-                    MySqlCommand cmd = new MySqlCommand(" s pForGetBook", mysqlConnection);
+                    MySqlCommand cmd = new MySqlCommand("spForGetBook", mysqlConnection);
                     cmd.CommandType = CommandType.StoredProcedure;
                     mysqlConnection.Open();
                     cmd.Parameters.AddWithValue("r_BookId", bookId);
