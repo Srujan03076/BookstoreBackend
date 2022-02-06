@@ -10,6 +10,6 @@ namespace RepositoryLayer.Interfaces
        public bool AddtoCart(CartModel model);
        public bool UpdateCart(int cartId, int quantity);
        public bool DeleteCart(int cartId);
-        List<CartModel> GetCart(int userId);
+       List<CartModel> GetCart(int userId);
     }
 }
