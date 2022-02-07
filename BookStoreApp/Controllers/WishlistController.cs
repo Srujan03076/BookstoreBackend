@@ -35,7 +35,7 @@ namespace BookStoreApp.Controllers
             }
             catch (Exception e)
             {
-                return this.BadRequest(new { Status = false, message = e.Message, InnerException = e.InnerException });
+                return this.BadRequest(new { Status =false, message = e.Message, InnerException = e.InnerException });
             }
         }
         [HttpDelete]
