@@ -7,7 +7,7 @@ namespace BussinessLayer.Interfaces
 {
     public interface IWishlistBL
     {
-        public bool AddToWishList(WishlistModel model);
+         bool AddToWishList(WishlistModel model);
         public bool DeleteWishlist(int wishlistId);
         List<WishlistModel> GetWishlist(int userId);
     }
