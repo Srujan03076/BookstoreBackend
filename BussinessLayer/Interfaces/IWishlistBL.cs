@@ -9,5 +9,6 @@ namespace BussinessLayer.Interfaces
     {
         public bool AddToWishList(WishlistModel model);
         public bool DeleteWishlist(int wishlistId);
+        List<WishlistModel> GetWishlist(int userId);
     }
 }

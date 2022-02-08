@@ -10,6 +10,6 @@ namespace BussinessLayer.Interfaces
         BookModel AddBook(BookModel model);
         BookModel UpdateBook(BookModel model);
         public bool DeleteBook(int bookId);
-        BookModel GetBook(int bookId);
+        BookModel GetBook(int BookId);
     }
 }
