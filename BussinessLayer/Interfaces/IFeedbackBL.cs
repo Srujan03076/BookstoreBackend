@@ -7,7 +7,7 @@ namespace BussinessLayer.Interfaces
 {
     public interface IFeedbackBL
     {
-        public bool AddFeedback(FeedbackModel model);
+         bool AddFeedback(FeedbackModel model);
         List<FeedbackModel> GetFeedback(int userId);
     }
 }
